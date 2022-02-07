@@ -3,7 +3,9 @@ output "helm_release" {
   value = {
     for release in keys(helm_release.release) :
     release => {
-      metadata = helm_release.release[release].metadata
+      name      = helm_release.release[release].name
+      namespace = helm_release.release[release].namespace
+      metadata  = helm_release.release[release].metadata
     }
   }
 }
