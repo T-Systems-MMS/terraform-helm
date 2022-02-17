@@ -1,8 +1,8 @@
 # Changelog
 
-## [0.0.1](https://github.com/T-Systems-MMS/terraform-helm/tree/0.0.1) (2022-01-06)
+## [0.0.1](https://github.com/T-Systems-MMS/terraform-helm-helm/tree/0.0.1) (2022-01-06)
 
-[Full Changelog](https://github.com/T-Systems-MMS/terraform-helm/compare/e5d3e92ce2ef9e0b575e48f9926e6ad14ce3c845...0.0.1)
+[Full Changelog](https://github.com/T-Systems-MMS/terraform-helm-helm/compare/e5d3e92ce2ef9e0b575e48f9926e6ad14ce3c845...0.0.1)
 
 
 

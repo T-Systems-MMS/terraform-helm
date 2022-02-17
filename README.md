@@ -9,13 +9,14 @@ This module manages helm releases.
 
 | Name | Version |
 |------|---------|
-| azurerm | >=2.19.0 |
+| terraform | ~>1.0 |
+| helm | >=2.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| helm | n/a |
+| helm | >=2.0 |
 
 ## Resources
 
@@ -39,7 +40,7 @@ This module manages helm releases.
 
 ```hcl
 module "helm_controller" {
-  source = "../modules/azure/terraform-helm"
+  source = "registry.terraform.io/T-Systems-MMS/helm/helm"
   helm_release = {
     akv2k8s = {
       repository      = "https://charts.spvapi.no"
@@ -74,7 +75,7 @@ module "helm_controller" {
   }
 }
 module "helm_certificates" {
-  source = "../modules/azure/terraform-helm"
+  source = "registry.terraform.io/T-Systems-MMS/helm/helm"
   helm_release = {
     wildcard-certificate = {
       chart           = "../../helm/akv2k8s/sync-certificate"
