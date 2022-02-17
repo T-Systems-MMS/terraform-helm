@@ -1,5 +1,5 @@
 module "helm_controller" {
-  source = "../modules/azure/terraform-helm"
+  source = "registry.terraform.io/T-Systems-MMS/helm/helm"
   helm_release = {
     akv2k8s = {
       repository      = "https://charts.spvapi.no"
@@ -34,7 +34,7 @@ module "helm_controller" {
   }
 }
 module "helm_certificates" {
-  source = "../modules/azure/terraform-helm"
+  source = "registry.terraform.io/T-Systems-MMS/helm/helm"
   helm_release = {
     wildcard-certificate = {
       chart           = "../../helm/akv2k8s/sync-certificate"
