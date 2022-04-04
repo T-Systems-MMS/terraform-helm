@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.1](https://github.com/T-Systems-MMS/terraform-helm-helm/tree/1.0.1) (2022-04-04)
+
+[Full Changelog](https://github.com/T-Systems-MMS/terraform-helm-helm/compare/1.0.0...1.0.1)
+
+## [1.0.0](https://github.com/T-Systems-MMS/terraform-helm-helm/tree/1.0.0) (2022-02-17)
+
+[Full Changelog](https://github.com/T-Systems-MMS/terraform-helm-helm/compare/0.0.1...1.0.0)
+
+**Merged pull requests:**
+
+- change variable behaviour [\#1](https://github.com/T-Systems-MMS/terraform-helm-helm/pull/1) ([michaelamattes](https://github.com/michaelamattes))
+
 ## [0.0.1](https://github.com/T-Systems-MMS/terraform-helm-helm/tree/0.0.1) (2022-01-06)
 
 [Full Changelog](https://github.com/T-Systems-MMS/terraform-helm-helm/compare/e5d3e92ce2ef9e0b575e48f9926e6ad14ce3c845...0.0.1)
