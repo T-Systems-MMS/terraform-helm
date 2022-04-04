@@ -13,6 +13,7 @@ resource "helm_release" "release" {
   namespace         = local.helm_release[each.key].namespace
   repository        = local.helm_release[each.key].repository
   chart             = local.helm_release[each.key].chart
+  version           = local.helm_release[each.key].version
   description       = local.helm_release[each.key].description
   wait              = local.helm_release[each.key].wait
   reuse_values      = local.helm_release[each.key].reuse_values
