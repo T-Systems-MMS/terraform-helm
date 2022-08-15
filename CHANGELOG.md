@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.2](https://github.com/T-Systems-MMS/terraform-helm-helm/tree/1.0.2) (2022-05-09)
+
+[Full Changelog](https://github.com/T-Systems-MMS/terraform-helm-helm/compare/1.0.1...1.0.2)
+
+**Merged pull requests:**
+
+- Update hashicorp/setup-terraform action to v2 [\#9](https://github.com/T-Systems-MMS/terraform-helm-helm/pull/9) ([renovate[bot]](https://github.com/apps/renovate))
+- Update creyD/prettier\_action action to v4 [\#8](https://github.com/T-Systems-MMS/terraform-helm-helm/pull/8) ([renovate[bot]](https://github.com/apps/renovate))
+- Update actions/checkout action [\#7](https://github.com/T-Systems-MMS/terraform-helm-helm/pull/7) ([renovate[bot]](https://github.com/apps/renovate))
+- Update github-actions-x/commit action to v2.9 [\#6](https://github.com/T-Systems-MMS/terraform-helm-helm/pull/6) ([renovate[bot]](https://github.com/apps/renovate))
+- add renovate config [\#2](https://github.com/T-Systems-MMS/terraform-helm-helm/pull/2) ([michaelamattes](https://github.com/michaelamattes))
+
 ## [1.0.1](https://github.com/T-Systems-MMS/terraform-helm-helm/tree/1.0.1) (2022-04-04)
 
 [Full Changelog](https://github.com/T-Systems-MMS/terraform-helm-helm/compare/1.0.0...1.0.1)
